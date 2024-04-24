@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img {
+    cursor: pointer;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #1EBBD7;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    padding: 10px 2%;
+}
+
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.nav-left .menu-icon {
+    width: 22px;
+    margin-right: 25px;
+}
+
+.nav-left .logo {
+    width: 35px;
+}
+
+.nav-middle .mic-icon {
+    width: 24px;
+}
+
+.nav-middle .search-box {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background:  #FFFFFF;
+}
+
+.nav-middle .search-box img {
+    width: 15px;
+}
+.home{
+    color: #FFFFFF;
+    
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {
+    display: none;
+    width: 1000px;
+    position: auto; 
+    margin-top: 1px;
+}
+img {vertical-align: middle;}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 20px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 400px ) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+p:hover {
+    background-color: #1EBBD7;
+    color: #ddd;
+  }
+
+  .container{
+    background: #f9f9f9;
+    padding-left: 1%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.large-container{
+    padding-left: 7%;
+}
+
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.vid-list .thumbnail{
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+}
+.vid-list .flex-div{
+    align-items: flex-start;
+    margin-top: 7px;
+}
+.vid-list .flex-div img{
+    width: 35px;
+    margin-right:10px;
+    border-radius:50%;
+}
+.vid-info{
+    color:#5a5a5a;
+    font-size: 13px;
+
+}
+.vid-info a{
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+h1{
+  text-align: center;
+  color: #1EBBD7;
+}
+h2{
+  text-align: left;
+  color: #1EBBD7;
+}
+
+
+.container2 {
+  background: #f9f9f9;
+  padding-left: 15%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.large-container2 {
+  padding-left: 7%;
+  padding-right: 17%;
+}
+
+.list-container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 16px; /* Simplified grid-column-gap and grid-row-gap */
+  margin-top: 15px;
+}
+
+.thumbnail2 {
+  width: 30%; /* Ensures thumbnails take full width */
+  border-radius: 5px;
+}
+
+.flex-div22 {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  color: #1EBBD7;
+}
+
+.flex-div2 {
+  display: flex; /* Ensure it uses flex */
+  align-items: center; /* Center alignment */
+}
+
+.flex-div2 img {
+  width: 35px;
+  margin-right: 40px;
+  border-radius: 50%; /* Circular images */
+}
+.para{
+  align-items: center;
+  color: #1EBBD7;
+}
+
+
+/* Media query for screens with a max-width of 900px */
+@media only screen and (max-width: 900px) {
+  body {
+      font-family: 'poppins', sans-serif;
+      margin: 0;
+  }
+
+  nav {
+      padding: 5px 1%;
+  }
+
+  .nav-right img {
+      width: 20px;
+  }
+
+  .nav-middle .search-box {
+      width: 100%;
+      padding: 6px 10px;
+  }
+
+  .nav-left .menu-icon {
+      width: 18px;
+  }
+
+ 
+  body { 
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+
+  .slideshow-container {
+    max-width: auto;  /* Reduced max-width for smaller screens */
+    padding-top: auto;  /* Reduced padding */
+    padding-bottom: auto;  /* Reduced padding */
+  }
+
+  .prev, .next {
+    font-size: 10px;  /* Smaller font size for buttons */
+    padding: 12px;  /* Reduced padding */
+    margin-top: -18px;  /* Adjusted margin */
+  }
+
+  .text {
+    font-size: 13px;  /* Smaller font size for text */
+  }
+
+  .numbertext {
+    font-size: 10px;  /* Smaller font size for number text */
+  }
+
+  .dot {
+    height: 12px;  /* Smaller dot height */
+    width: 12px;  /* Smaller dot width */
+  }
+
+  .fade {
+    animation-duration: 1s;  /* Reduced animation duration */
+  }
+
+  .mySlides {
+    width: auto;  /* Adjusted width for smaller screens */
+  }
+  
+  /* Further reduced text size for even smaller screens (max-width: 400px) */
+  @media only screen and (max-width: 400px) {
+    .prev, .next, .text {
+      font-size: 9px;  /* Smaller font size */
+    }
+  }
+
+  
+  .container .container1 {
+    background: #f9f9f9;
+    padding-left: 1%;
+    padding-right: 1%;  /* Increased padding for smaller screens */
+    padding-top: 10px;  /* Reduced top padding */
+    padding-bottom: 10px;  /* Reduced bottom padding */
+  }
+
+  .large-container .large-container2 {
+    padding-left: 5%;  /* Adjusted padding for smaller screens */
+  }
+
+  .list-container .list-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  /* Adjusted minimum grid column size */
+    grid-gap: 12px;  /* Decreased grid gaps */
+    margin-top: 10px;  /* Reduced top margin */
+  }
+
+  .vid-list .thumbnail .vid-list2 .thumbnail2 {
+    height: 50%;  /* Decreased height */
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .vid-list .flex-div .vid-list2 .flex-div2 {
+    align-items: center;  /* Adjusted alignment */
+    margin-top: 5px;  /* Decreased margin-top */
+  }
+
+  .vid-list .flex-div img .vid-list2 .flex-div2 img {
+    width: auto;  /* Smaller image size */
+    margin-right: 1px;  /* Decreased margin-right */
+  }
+
+  .vid-info {
+    color: #5a5a5a;
+    font-size: 12px;  /* Reduced font size */
+  }
+
+  .vid-info a {
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;  /* Decreased bottom margin */
+  }
+
+  h1 {
+    text-align: center;
+    color: #1EBBD7;
+    font-size: 20px;  /* Reduced font size */
+  }
+
+  h2 {
+    text-align: left;
+    color: #1EBBD7;
+    font-size: 16px;  /* Reduced font size */
+  }
+
+
+
+
+}
+
+/* Additional media query for even smaller screens (max-width: 400px) */
+@media only screen and (max-width: 400px) {
+  .prev, .next, .text {
+      font-size: 11px;
+  }
+
+  .nav-right img {
+      width: 15px;
+  }
+
+  .nav-left .menu-icon {
+      width: 15px;
+  }
+
+  .nav-middle .search-box input {
+      width: 100%;
+  }
+
+  /* Adjust padding for even smaller screens */
+  .container, .large-container {
+    padding: 0px 0px;
+}
+}
